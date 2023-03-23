@@ -7,16 +7,6 @@ async function main() {
   await account.declare(contractFactory, { maxFee: 1e18 });
   const contract = await account.deploy(contractFactory);
   console.log("Deployed to:", contract.address);
-
-  /* await account.invoke(contract, "set_admin", {
-    admin_address:
-      "0x05637a98Ad8f8ADED187dB7331d5517d643e37fcb225dFAc79bBefB990b6426c",
-  }); */
-
-  const { address: owner } = await contract.call("get_owner");
-
-  console.log("Owner address:", owner);
-  // console.log("Admin address:", admin);
 }
 
 main()
