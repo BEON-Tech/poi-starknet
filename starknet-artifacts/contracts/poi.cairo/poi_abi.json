@@ -1,0 +1,90 @@
+[
+    {
+        "members": [
+            {
+                "name": "wallet_address_low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "wallet_address_high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "StudentWallet",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "inputs": [],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "program",
+                "type": "felt"
+            },
+            {
+                "name": "wallet",
+                "type": "StudentWallet"
+            }
+        ],
+        "name": "register_student",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "get_owner",
+        "outputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "program",
+                "type": "felt"
+            }
+        ],
+        "name": "get_students_count_by_program",
+        "outputs": [
+            {
+                "name": "count",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "program",
+                "type": "felt"
+            },
+            {
+                "name": "index",
+                "type": "felt"
+            }
+        ],
+        "name": "get_student_wallet",
+        "outputs": [
+            {
+                "name": "wallet",
+                "type": "StudentWallet"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
