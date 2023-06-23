@@ -2,6 +2,23 @@
     {
         "members": [
             {
+                "name": "low",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "high",
+                "offset": 1,
+                "type": "felt"
+            }
+        ],
+        "name": "ShortText",
+        "size": 2,
+        "type": "struct"
+    },
+    {
+        "members": [
+            {
                 "name": "wallet_address_low",
                 "offset": 0,
                 "type": "felt"
@@ -17,25 +34,42 @@
         "type": "struct"
     },
     {
+        "members": [
+            {
+                "name": "edition_number",
+                "offset": 0,
+                "type": "felt"
+            },
+            {
+                "name": "venue",
+                "offset": 1,
+                "type": "ShortText"
+            },
+            {
+                "name": "photo_cid",
+                "offset": 3,
+                "type": "felt"
+            },
+            {
+                "name": "graduates_number",
+                "offset": 4,
+                "type": "felt"
+            },
+            {
+                "name": "wallets_number",
+                "offset": 5,
+                "type": "felt"
+            }
+        ],
+        "name": "Edition",
+        "size": 6,
+        "type": "struct"
+    },
+    {
         "inputs": [],
         "name": "constructor",
         "outputs": [],
         "type": "constructor"
-    },
-    {
-        "inputs": [
-            {
-                "name": "program",
-                "type": "felt"
-            },
-            {
-                "name": "wallet",
-                "type": "StudentWallet"
-            }
-        ],
-        "name": "register_student",
-        "outputs": [],
-        "type": "function"
     },
     {
         "inputs": [],
@@ -52,11 +86,42 @@
     {
         "inputs": [
             {
+                "name": "edition_number",
+                "type": "felt"
+            },
+            {
+                "name": "venue",
+                "type": "ShortText"
+            },
+            {
+                "name": "photo_cid",
+                "type": "felt"
+            },
+            {
+                "name": "graduates_number",
+                "type": "felt"
+            },
+            {
+                "name": "wallets_len",
+                "type": "felt"
+            },
+            {
+                "name": "wallets",
+                "type": "StudentWallet*"
+            }
+        ],
+        "name": "add_edition",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "name": "program",
                 "type": "felt"
             }
         ],
-        "name": "get_students_count_by_program",
+        "name": "get_editions_count",
         "outputs": [
             {
                 "name": "count",
@@ -69,7 +134,24 @@
     {
         "inputs": [
             {
-                "name": "program",
+                "name": "edition_index",
+                "type": "felt"
+            }
+        ],
+        "name": "get_edition",
+        "outputs": [
+            {
+                "name": "edition",
+                "type": "Edition"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "edition_number",
                 "type": "felt"
             },
             {
