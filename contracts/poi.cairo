@@ -16,7 +16,7 @@ struct ShortText {
 struct Edition {
     edition_number: felt,
     venue: ShortText,
-    photo_cid: felt,
+    photo_cid: ShortText,
     graduates_number: felt,
     wallets_number: felt,
 }
@@ -78,7 +78,7 @@ func add_edition {
     syscall_ptr: felt*,
     pedersen_ptr: HashBuiltin*,
     range_check_ptr,
-} (edition_number: felt, venue: ShortText, photo_cid: felt, graduates_number: felt, wallets_len: felt, wallets: StudentWallet*) {
+} (edition_number: felt, venue: ShortText, photo_cid: ShortText, graduates_number: felt, wallets_len: felt, wallets: StudentWallet*) {
     let (current_number) = editions_number.read();
 
     editions.write(current_number, Edition(edition_number, venue, photo_cid, graduates_number, wallets_number=wallets_len));
@@ -93,7 +93,7 @@ func get_editions_count {
     syscall_ptr: felt*,
     pedersen_ptr: HashBuiltin*,
     range_check_ptr,
-} (program: felt) -> (count: felt) {
+} () -> (count: felt) {
     let (current_number) = editions_number.read();
     return (count=current_number);
 }

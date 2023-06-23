@@ -48,21 +48,21 @@
             {
                 "name": "photo_cid",
                 "offset": 3,
-                "type": "felt"
+                "type": "ShortText"
             },
             {
                 "name": "graduates_number",
-                "offset": 4,
+                "offset": 5,
                 "type": "felt"
             },
             {
                 "name": "wallets_number",
-                "offset": 5,
+                "offset": 6,
                 "type": "felt"
             }
         ],
         "name": "Edition",
-        "size": 6,
+        "size": 7,
         "type": "struct"
     },
     {
@@ -95,7 +95,7 @@
             },
             {
                 "name": "photo_cid",
-                "type": "felt"
+                "type": "ShortText"
             },
             {
                 "name": "graduates_number",
@@ -115,12 +115,7 @@
         "type": "function"
     },
     {
-        "inputs": [
-            {
-                "name": "program",
-                "type": "felt"
-            }
-        ],
+        "inputs": [],
         "name": "get_editions_count",
         "outputs": [
             {
