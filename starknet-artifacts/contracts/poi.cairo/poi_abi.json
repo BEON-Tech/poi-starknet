@@ -66,7 +66,12 @@
         "type": "struct"
     },
     {
-        "inputs": [],
+        "inputs": [
+            {
+                "name": "owner",
+                "type": "felt"
+            }
+        ],
         "name": "constructor",
         "outputs": [],
         "type": "constructor"
@@ -162,6 +167,56 @@
             }
         ],
         "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "edition_index",
+                "type": "felt"
+            },
+            {
+                "name": "edition_number",
+                "type": "felt"
+            },
+            {
+                "name": "venue",
+                "type": "ShortText"
+            },
+            {
+                "name": "photo_cid",
+                "type": "ShortText"
+            },
+            {
+                "name": "graduates_number",
+                "type": "felt"
+            },
+            {
+                "name": "wallets_number",
+                "type": "felt"
+            }
+        ],
+        "name": "update_edition_data",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "edition_number",
+                "type": "felt"
+            },
+            {
+                "name": "wallet_index",
+                "type": "felt"
+            },
+            {
+                "name": "wallet",
+                "type": "StudentWallet"
+            }
+        ],
+        "name": "update_student_wallet",
+        "outputs": [],
         "type": "function"
     }
 ]

@@ -7,7 +7,7 @@ async function main() {
   const contractFactory = await hardhat.starknet.getContractFactory("poi");
   await account.declare(contractFactory, { maxFee: 1e18 });
   const contract = await account.deploy(contractFactory, {
-    owner: Config.publicKey,
+    owner: Config.contractOwner,
   });
   console.log("Deployed to:", contract.address);
 }
