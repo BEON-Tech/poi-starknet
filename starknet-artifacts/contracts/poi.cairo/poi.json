@@ -288,7 +288,7 @@
                 "selector": "0xd5172169048f08285753500e3b967f5bfff56eab35c2e5ee9a059079dcf7ed"
             },
             {
-                "offset": "0x349",
+                "offset": "0x34d",
                 "selector": "0x124da076caabf51157bcbb1c26fd5df43943933df0de5dd8e152cebf9af999d"
             },
             {
@@ -304,7 +304,7 @@
                 "selector": "0x20f608626ba92467d77590e018e059686777c8c2589ce69937a4b6d0843c9ed"
             },
             {
-                "offset": "0x327",
+                "offset": "0x32b",
                 "selector": "0x23fe76fc7f2fd54d93c5865390225f1af4f1a66f454144e71b9cf5f55ebd575"
             },
             {
@@ -312,7 +312,7 @@
                 "selector": "0x2da51ccff2a470184c3fa3e33222cb7cf37a62f43cdf8c7d4d4c69d0ddb0680"
             },
             {
-                "offset": "0x30c",
+                "offset": "0x30e",
                 "selector": "0x32dc23d785204c7fb467f2a7486d8e422b8461a219e733f1afbc9d759cfa9d5"
             },
             {
@@ -1211,11 +1211,13 @@
             "0x480a7ffa7fff8000",
             "0x480a7ffb7fff8000",
             "0x480a7ffc7fff8000",
+            "0x1104800180018000",
+            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe74",
             "0x480a7ffd7fff8000",
             "0x480680017fff8000",
             "0x1",
             "0x1104800180018000",
-            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe4b",
+            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe49",
             "0x208b7fff7fff7ffe",
             "0x482680017ffd8000",
             "0x1",
@@ -1225,7 +1227,36 @@
             "0x480280027ffb8000",
             "0x480280007ffd8000",
             "0x1104800180018000",
-            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff1",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffef",
+            "0x40780017fff7fff",
+            "0x1",
+            "0x48127ffc7fff8000",
+            "0x48127ffc7fff8000",
+            "0x48127ffc7fff8000",
+            "0x480680017fff8000",
+            "0x0",
+            "0x48127ffb7fff8000",
+            "0x208b7fff7fff7ffe",
+            "0x480a7ffa7fff8000",
+            "0x480a7ffb7fff8000",
+            "0x480a7ffc7fff8000",
+            "0x1104800180018000",
+            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe57",
+            "0x480a7ffd7fff8000",
+            "0x480680017fff8000",
+            "0x0",
+            "0x1104800180018000",
+            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe2c",
+            "0x208b7fff7fff7ffe",
+            "0x482680017ffd8000",
+            "0x1",
+            "0x402a7ffd7ffc7fff",
+            "0x480280007ffb8000",
+            "0x480280017ffb8000",
+            "0x480280027ffb8000",
+            "0x480280007ffd8000",
+            "0x1104800180018000",
+            "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffef",
             "0x40780017fff7fff",
             "0x1",
             "0x48127ffc7fff8000",
@@ -1239,35 +1270,8 @@
             "0x480a7ffb7fff8000",
             "0x480a7ffc7fff8000",
             "0x480a7ffd7fff8000",
-            "0x480680017fff8000",
-            "0x0",
             "0x1104800180018000",
-            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe30",
-            "0x208b7fff7fff7ffe",
-            "0x482680017ffd8000",
-            "0x1",
-            "0x402a7ffd7ffc7fff",
-            "0x480280007ffb8000",
-            "0x480280017ffb8000",
-            "0x480280027ffb8000",
-            "0x480280007ffd8000",
-            "0x1104800180018000",
-            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff1",
-            "0x40780017fff7fff",
-            "0x1",
-            "0x48127ffc7fff8000",
-            "0x48127ffc7fff8000",
-            "0x48127ffc7fff8000",
-            "0x480680017fff8000",
-            "0x0",
-            "0x48127ffb7fff8000",
-            "0x208b7fff7fff7ffe",
-            "0x480a7ffa7fff8000",
-            "0x480a7ffb7fff8000",
-            "0x480a7ffc7fff8000",
-            "0x480a7ffd7fff8000",
-            "0x1104800180018000",
-            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe09",
+            "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffe05",
             "0x208b7fff7fff7ffe",
             "0x40780017fff7fff",
             "0x1",
@@ -22837,14 +22841,14 @@
                         },
                         "parent_location": [
                             {
-                                "end_col": 34,
-                                "end_line": 21,
+                                "end_col": 23,
+                                "end_line": 57,
                                 "input_file": {
-                                    "filename": "autogen/starknet/storage_var/admins/decl.cairo"
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "parent_location": [
                                     {
-                                        "end_col": 35,
+                                        "end_col": 24,
                                         "end_line": 222,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
@@ -22854,8 +22858,8 @@
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
-                                "start_col": 16,
-                                "start_line": 21
+                                "start_col": 5,
+                                "start_line": 57
                             },
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
@@ -22879,14 +22883,14 @@
                         },
                         "parent_location": [
                             {
-                                "end_col": 62,
-                                "end_line": 21,
+                                "end_col": 31,
+                                "end_line": 58,
                                 "input_file": {
-                                    "filename": "autogen/starknet/storage_var/admins/decl.cairo"
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "parent_location": [
                                     {
-                                        "end_col": 35,
+                                        "end_col": 24,
                                         "end_line": 222,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
@@ -22896,8 +22900,8 @@
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
-                                "start_col": 36,
-                                "start_line": 21
+                                "start_col": 5,
+                                "start_line": 58
                             },
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
@@ -22921,14 +22925,14 @@
                         },
                         "parent_location": [
                             {
-                                "end_col": 79,
-                                "end_line": 21,
+                                "end_col": 20,
+                                "end_line": 59,
                                 "input_file": {
-                                    "filename": "autogen/starknet/storage_var/admins/decl.cairo"
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "parent_location": [
                                     {
-                                        "end_col": 35,
+                                        "end_col": 24,
                                         "end_line": 222,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
@@ -22938,8 +22942,8 @@
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
-                                "start_col": 64,
-                                "start_line": 21
+                                "start_col": 5,
+                                "start_line": 59
                             },
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
@@ -22956,28 +22960,16 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 23,
-                        "end_line": 221,
+                        "end_col": 24,
+                        "end_line": 222,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
-                        "parent_location": [
-                            {
-                                "end_col": 31,
-                                "end_line": 222,
-                                "input_file": {
-                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
-                                },
-                                "start_col": 18,
-                                "start_line": 222
-                            },
-                            "While expanding the reference 'admin_address' in:"
-                        ],
-                        "start_col": 4,
-                        "start_line": 221
+                        "start_col": 5,
+                        "start_line": 222
                     }
                 },
-                "775": {
+                "776": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -22986,13 +22978,25 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 34,
-                        "end_line": 222,
+                        "end_col": 23,
+                        "end_line": 221,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
-                        "start_col": 33,
-                        "start_line": 222
+                        "parent_location": [
+                            {
+                                "end_col": 31,
+                                "end_line": 224,
+                                "input_file": {
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                                },
+                                "start_col": 18,
+                                "start_line": 224
+                            },
+                            "While expanding the reference 'admin_address' in:"
+                        ],
+                        "start_col": 4,
+                        "start_line": 221
                     }
                 },
                 "777": {
@@ -23004,13 +23008,13 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 35,
-                        "end_line": 222,
+                        "end_col": 34,
+                        "end_line": 224,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
-                        "start_col": 5,
-                        "start_line": 222
+                        "start_col": 33,
+                        "start_line": 224
                     }
                 },
                 "779": {
@@ -23022,7 +23026,7 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 15,
+                        "end_col": 35,
                         "end_line": 224,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
@@ -23031,7 +23035,25 @@
                         "start_line": 224
                     }
                 },
-                "780": {
+                "781": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__",
+                        "__main__.add_admin"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 15,
+                        "end_line": 226,
+                        "input_file": {
+                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 226
+                    }
+                },
+                "782": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23110,7 +23132,7 @@
                         "start_line": 2
                     }
                 },
-                "782": {
+                "784": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23141,7 +23163,7 @@
                         "start_line": 1
                     }
                 },
-                "783": {
+                "785": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23196,7 +23218,7 @@
                         "start_line": 1
                     }
                 },
-                "784": {
+                "786": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23251,7 +23273,7 @@
                         "start_line": 1
                     }
                 },
-                "785": {
+                "787": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23306,7 +23328,7 @@
                         "start_line": 1
                     }
                 },
-                "786": {
+                "788": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23361,7 +23383,7 @@
                         "start_line": 1
                     }
                 },
-                "787": {
+                "789": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23380,7 +23402,7 @@
                         "start_line": 217
                     }
                 },
-                "789": {
+                "791": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23436,7 +23458,7 @@
                         "start_line": 3
                     }
                 },
-                "791": {
+                "793": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23491,7 +23513,7 @@
                         "start_line": 1
                     }
                 },
-                "792": {
+                "794": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23546,7 +23568,7 @@
                         "start_line": 1
                     }
                 },
-                "793": {
+                "795": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23601,7 +23623,7 @@
                         "start_line": 1
                     }
                 },
-                "794": {
+                "796": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23656,7 +23678,7 @@
                         "start_line": 4
                     }
                 },
-                "796": {
+                "798": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23711,7 +23733,7 @@
                         "start_line": 3
                     }
                 },
-                "797": {
+                "799": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23742,90 +23764,6 @@
                         "start_line": 1
                     }
                 },
-                "798": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.remove_admin"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 23,
-                        "end_line": 229,
-                        "input_file": {
-                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 34,
-                                "end_line": 21,
-                                "input_file": {
-                                    "filename": "autogen/starknet/storage_var/admins/decl.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 35,
-                                        "end_line": 233,
-                                        "input_file": {
-                                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
-                                        },
-                                        "start_col": 5,
-                                        "start_line": 233
-                                    },
-                                    "While trying to retrieve the implicit argument 'syscall_ptr' in:"
-                                ],
-                                "start_col": 16,
-                                "start_line": 21
-                            },
-                            "While expanding the reference 'syscall_ptr' in:"
-                        ],
-                        "start_col": 5,
-                        "start_line": 229
-                    }
-                },
-                "799": {
-                    "accessible_scopes": [
-                        "__main__",
-                        "__main__",
-                        "__main__.remove_admin"
-                    ],
-                    "flow_tracking_data": null,
-                    "hints": [],
-                    "inst": {
-                        "end_col": 31,
-                        "end_line": 230,
-                        "input_file": {
-                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
-                        },
-                        "parent_location": [
-                            {
-                                "end_col": 62,
-                                "end_line": 21,
-                                "input_file": {
-                                    "filename": "autogen/starknet/storage_var/admins/decl.cairo"
-                                },
-                                "parent_location": [
-                                    {
-                                        "end_col": 35,
-                                        "end_line": 233,
-                                        "input_file": {
-                                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
-                                        },
-                                        "start_col": 5,
-                                        "start_line": 233
-                                    },
-                                    "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
-                                ],
-                                "start_col": 36,
-                                "start_line": 21
-                            },
-                            "While expanding the reference 'pedersen_ptr' in:"
-                        ],
-                        "start_col": 5,
-                        "start_line": 230
-                    }
-                },
                 "800": {
                     "accessible_scopes": [
                         "__main__",
@@ -23835,34 +23773,34 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 20,
+                        "end_col": 23,
                         "end_line": 231,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "parent_location": [
                             {
-                                "end_col": 79,
-                                "end_line": 21,
+                                "end_col": 23,
+                                "end_line": 57,
                                 "input_file": {
-                                    "filename": "autogen/starknet/storage_var/admins/decl.cairo"
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "parent_location": [
                                     {
-                                        "end_col": 35,
-                                        "end_line": 233,
+                                        "end_col": 24,
+                                        "end_line": 235,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                         },
                                         "start_col": 5,
-                                        "start_line": 233
+                                        "start_line": 235
                                     },
-                                    "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                                    "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
-                                "start_col": 64,
-                                "start_line": 21
+                                "start_col": 5,
+                                "start_line": 57
                             },
-                            "While expanding the reference 'range_check_ptr' in:"
+                            "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 5,
                         "start_line": 231
@@ -23877,7 +23815,7 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 23,
+                        "end_col": 31,
                         "end_line": 232,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
@@ -23885,16 +23823,28 @@
                         "parent_location": [
                             {
                                 "end_col": 31,
-                                "end_line": 233,
+                                "end_line": 58,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
-                                "start_col": 18,
-                                "start_line": 233
+                                "parent_location": [
+                                    {
+                                        "end_col": 24,
+                                        "end_line": 235,
+                                        "input_file": {
+                                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                                        },
+                                        "start_col": 5,
+                                        "start_line": 235
+                                    },
+                                    "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
+                                ],
+                                "start_col": 5,
+                                "start_line": 58
                             },
-                            "While expanding the reference 'admin_address' in:"
+                            "While expanding the reference 'pedersen_ptr' in:"
                         ],
-                        "start_col": 4,
+                        "start_col": 5,
                         "start_line": 232
                     }
                 },
@@ -23907,16 +23857,40 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 34,
+                        "end_col": 20,
                         "end_line": 233,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
-                        "start_col": 33,
+                        "parent_location": [
+                            {
+                                "end_col": 20,
+                                "end_line": 59,
+                                "input_file": {
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                                },
+                                "parent_location": [
+                                    {
+                                        "end_col": 24,
+                                        "end_line": 235,
+                                        "input_file": {
+                                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                                        },
+                                        "start_col": 5,
+                                        "start_line": 235
+                                    },
+                                    "While trying to retrieve the implicit argument 'range_check_ptr' in:"
+                                ],
+                                "start_col": 5,
+                                "start_line": 59
+                            },
+                            "While expanding the reference 'range_check_ptr' in:"
+                        ],
+                        "start_col": 5,
                         "start_line": 233
                     }
                 },
-                "804": {
+                "803": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23925,13 +23899,43 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 35,
-                        "end_line": 233,
+                        "end_col": 24,
+                        "end_line": 235,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 233
+                        "start_line": 235
+                    }
+                },
+                "805": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__",
+                        "__main__.remove_admin"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 23,
+                        "end_line": 234,
+                        "input_file": {
+                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                        },
+                        "parent_location": [
+                            {
+                                "end_col": 31,
+                                "end_line": 237,
+                                "input_file": {
+                                    "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                                },
+                                "start_col": 18,
+                                "start_line": 237
+                            },
+                            "While expanding the reference 'admin_address' in:"
+                        ],
+                        "start_col": 4,
+                        "start_line": 234
                     }
                 },
                 "806": {
@@ -23943,16 +23947,52 @@
                     "flow_tracking_data": null,
                     "hints": [],
                     "inst": {
-                        "end_col": 15,
-                        "end_line": 235,
+                        "end_col": 34,
+                        "end_line": 237,
+                        "input_file": {
+                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                        },
+                        "start_col": 33,
+                        "start_line": 237
+                    }
+                },
+                "808": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__",
+                        "__main__.remove_admin"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 35,
+                        "end_line": 237,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 235
+                        "start_line": 237
                     }
                 },
-                "807": {
+                "810": {
+                    "accessible_scopes": [
+                        "__main__",
+                        "__main__",
+                        "__main__.remove_admin"
+                    ],
+                    "flow_tracking_data": null,
+                    "hints": [],
+                    "inst": {
+                        "end_col": 15,
+                        "end_line": 239,
+                        "input_file": {
+                            "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 239
+                    }
+                },
+                "811": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -23970,7 +24010,7 @@
                         "parent_location": [
                             {
                                 "end_col": 23,
-                                "end_line": 232,
+                                "end_line": 234,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -23984,7 +24024,7 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
@@ -23998,12 +24038,12 @@
                                                         "parent_location": [
                                                             {
                                                                 "end_col": 18,
-                                                                "end_line": 228,
+                                                                "end_line": 230,
                                                                 "input_file": {
                                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                                 },
                                                                 "start_col": 6,
-                                                                "start_line": 228
+                                                                "start_line": 230
                                                             },
                                                             "While handling calldata of"
                                                         ],
@@ -24013,7 +24053,7 @@
                                                     "While expanding the reference '__calldata_actual_size' in:"
                                                 ],
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While handling calldata of"
                                         ],
@@ -24023,7 +24063,7 @@
                                     "While expanding the reference '__calldata_ptr' in:"
                                 ],
                                 "start_col": 4,
-                                "start_line": 232
+                                "start_line": 234
                             },
                             "While handling calldata argument 'admin_address'"
                         ],
@@ -24031,7 +24071,7 @@
                         "start_line": 2
                     }
                 },
-                "809": {
+                "813": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24049,12 +24089,12 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While handling calldata of"
                         ],
@@ -24062,7 +24102,7 @@
                         "start_line": 1
                     }
                 },
-                "810": {
+                "814": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24080,7 +24120,7 @@
                         "parent_location": [
                             {
                                 "end_col": 23,
-                                "end_line": 229,
+                                "end_line": 231,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24094,12 +24134,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24109,7 +24149,7 @@
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 5,
-                                "start_line": 229
+                                "start_line": 231
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24117,7 +24157,7 @@
                         "start_line": 1
                     }
                 },
-                "811": {
+                "815": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24135,7 +24175,7 @@
                         "parent_location": [
                             {
                                 "end_col": 31,
-                                "end_line": 230,
+                                "end_line": 232,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24149,12 +24189,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24164,7 +24204,7 @@
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 5,
-                                "start_line": 230
+                                "start_line": 232
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24172,7 +24212,7 @@
                         "start_line": 1
                     }
                 },
-                "812": {
+                "816": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24190,7 +24230,7 @@
                         "parent_location": [
                             {
                                 "end_col": 20,
-                                "end_line": 231,
+                                "end_line": 233,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24204,12 +24244,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24219,7 +24259,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 5,
-                                "start_line": 231
+                                "start_line": 233
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24227,7 +24267,7 @@
                         "start_line": 1
                     }
                 },
-                "813": {
+                "817": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24245,7 +24285,7 @@
                         "parent_location": [
                             {
                                 "end_col": 23,
-                                "end_line": 232,
+                                "end_line": 234,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24259,12 +24299,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24274,7 +24314,7 @@
                                     "While expanding the reference '__calldata_arg_admin_address' in:"
                                 ],
                                 "start_col": 4,
-                                "start_line": 232
+                                "start_line": 234
                             },
                             "While handling calldata argument 'admin_address'"
                         ],
@@ -24282,7 +24322,7 @@
                         "start_line": 1
                     }
                 },
-                "814": {
+                "818": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24293,15 +24333,15 @@
                     "hints": [],
                     "inst": {
                         "end_col": 18,
-                        "end_line": 228,
+                        "end_line": 230,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "start_col": 6,
-                        "start_line": 228
+                        "start_line": 230
                     }
                 },
-                "816": {
+                "820": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24320,12 +24360,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 18,
-                                        "end_line": 228,
+                                        "end_line": 230,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                         },
                                         "start_col": 6,
-                                        "start_line": 228
+                                        "start_line": 230
                                     },
                                     "While constructing the external wrapper for:"
                                 ],
@@ -24344,12 +24384,12 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24357,7 +24397,7 @@
                         "start_line": 3
                     }
                 },
-                "818": {
+                "822": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24375,7 +24415,7 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24389,12 +24429,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24404,7 +24444,7 @@
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24412,7 +24452,7 @@
                         "start_line": 1
                     }
                 },
-                "819": {
+                "823": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24430,7 +24470,7 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24444,12 +24484,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24459,7 +24499,7 @@
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24467,7 +24507,7 @@
                         "start_line": 1
                     }
                 },
-                "820": {
+                "824": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24485,7 +24525,7 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24499,12 +24539,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24514,7 +24554,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24522,7 +24562,7 @@
                         "start_line": 1
                     }
                 },
-                "821": {
+                "825": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24540,7 +24580,7 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24554,12 +24594,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24569,7 +24609,7 @@
                                     "While expanding the reference 'retdata_size' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24577,7 +24617,7 @@
                         "start_line": 4
                     }
                 },
-                "823": {
+                "827": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24595,7 +24635,7 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24609,12 +24649,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 18,
-                                                "end_line": 228,
+                                                "end_line": 230,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 228
+                                                "start_line": 230
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -24624,7 +24664,7 @@
                                     "While expanding the reference 'retdata' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24632,7 +24672,7 @@
                         "start_line": 3
                     }
                 },
-                "824": {
+                "828": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24650,12 +24690,12 @@
                         "parent_location": [
                             {
                                 "end_col": 18,
-                                "end_line": 228,
+                                "end_line": 230,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 228
+                                "start_line": 230
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -24663,7 +24703,7 @@
                         "start_line": 1
                     }
                 },
-                "825": {
+                "829": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24673,7 +24713,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 23,
-                        "end_line": 240,
+                        "end_line": 244,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
@@ -24687,12 +24727,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 40,
-                                        "end_line": 244,
+                                        "end_line": 248,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                         },
                                         "start_col": 20,
-                                        "start_line": 244
+                                        "start_line": 248
                                     },
                                     "While trying to retrieve the implicit argument 'syscall_ptr' in:"
                                 ],
@@ -24702,10 +24742,10 @@
                             "While expanding the reference 'syscall_ptr' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 240
+                        "start_line": 244
                     }
                 },
-                "826": {
+                "830": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24715,7 +24755,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 31,
-                        "end_line": 241,
+                        "end_line": 245,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
@@ -24729,12 +24769,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 40,
-                                        "end_line": 244,
+                                        "end_line": 248,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                         },
                                         "start_col": 20,
-                                        "start_line": 244
+                                        "start_line": 248
                                     },
                                     "While trying to retrieve the implicit argument 'pedersen_ptr' in:"
                                 ],
@@ -24744,10 +24784,10 @@
                             "While expanding the reference 'pedersen_ptr' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 241
+                        "start_line": 245
                     }
                 },
-                "827": {
+                "831": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24757,7 +24797,7 @@
                     "hints": [],
                     "inst": {
                         "end_col": 20,
-                        "end_line": 242,
+                        "end_line": 246,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
@@ -24771,12 +24811,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 40,
-                                        "end_line": 244,
+                                        "end_line": 248,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                         },
                                         "start_col": 20,
-                                        "start_line": 244
+                                        "start_line": 248
                                     },
                                     "While trying to retrieve the implicit argument 'range_check_ptr' in:"
                                 ],
@@ -24786,10 +24826,10 @@
                             "While expanding the reference 'range_check_ptr' in:"
                         ],
                         "start_col": 5,
-                        "start_line": 242
+                        "start_line": 246
                     }
                 },
-                "828": {
+                "832": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24799,27 +24839,27 @@
                     "hints": [],
                     "inst": {
                         "end_col": 17,
-                        "end_line": 243,
+                        "end_line": 247,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "parent_location": [
                             {
                                 "end_col": 39,
-                                "end_line": 244,
+                                "end_line": 248,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 32,
-                                "start_line": 244
+                                "start_line": 248
                             },
                             "While expanding the reference 'address' in:"
                         ],
                         "start_col": 4,
-                        "start_line": 243
+                        "start_line": 247
                     }
                 },
-                "829": {
+                "833": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24829,15 +24869,15 @@
                     "hints": [],
                     "inst": {
                         "end_col": 40,
-                        "end_line": 244,
+                        "end_line": 248,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "start_col": 20,
-                        "start_line": 244
+                        "start_line": 248
                     }
                 },
-                "831": {
+                "835": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24847,15 +24887,15 @@
                     "hints": [],
                     "inst": {
                         "end_col": 28,
-                        "end_line": 245,
+                        "end_line": 249,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "start_col": 5,
-                        "start_line": 245
+                        "start_line": 249
                     }
                 },
-                "832": {
+                "836": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24874,12 +24914,12 @@
                                 "parent_location": [
                                     {
                                         "end_col": 14,
-                                        "end_line": 239,
+                                        "end_line": 243,
                                         "input_file": {
                                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                         },
                                         "start_col": 6,
-                                        "start_line": 239
+                                        "start_line": 243
                                     },
                                     "While handling return value of"
                                 ],
@@ -24898,12 +24938,12 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While handling return value of"
                         ],
@@ -24911,7 +24951,7 @@
                         "start_line": 4
                     }
                 },
-                "834": {
+                "838": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24929,12 +24969,12 @@
                         "parent_location": [
                             {
                                 "end_col": 35,
-                                "end_line": 243,
+                                "end_line": 247,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 23,
-                                "start_line": 243
+                                "start_line": 247
                             },
                             "While handling return value 'result'"
                         ],
@@ -24942,7 +24982,7 @@
                         "start_line": 1
                     }
                 },
-                "835": {
+                "839": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -24960,7 +25000,7 @@
                         "parent_location": [
                             {
                                 "end_col": 35,
-                                "end_line": 243,
+                                "end_line": 247,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -24974,12 +25014,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While handling return value of"
                                         ],
@@ -24989,7 +25029,7 @@
                                     "While expanding the reference '__return_value_ptr' in:"
                                 ],
                                 "start_col": 23,
-                                "start_line": 243
+                                "start_line": 247
                             },
                             "While handling return value 'result'"
                         ],
@@ -24997,7 +25037,7 @@
                         "start_line": 2
                     }
                 },
-                "837": {
+                "841": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25015,7 +25055,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25029,12 +25069,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While handling return value of"
                                         ],
@@ -25044,7 +25084,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While handling return value of"
                         ],
@@ -25052,7 +25092,7 @@
                         "start_line": 1
                     }
                 },
-                "838": {
+                "842": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25070,12 +25110,12 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While handling return value of"
                         ],
@@ -25083,7 +25123,7 @@
                         "start_line": 11
                     }
                 },
-                "839": {
+                "843": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25101,7 +25141,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25115,12 +25155,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While handling return value of"
                                         ],
@@ -25130,7 +25170,7 @@
                                     "While expanding the reference '__return_value_ptr_start' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While handling return value of"
                         ],
@@ -25138,7 +25178,7 @@
                         "start_line": 5
                     }
                 },
-                "840": {
+                "844": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25156,12 +25196,12 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While handling return value of"
                         ],
@@ -25169,7 +25209,7 @@
                         "start_line": 9
                     }
                 },
-                "841": {
+                "845": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25187,7 +25227,7 @@
                         "parent_location": [
                             {
                                 "end_col": 17,
-                                "end_line": 243,
+                                "end_line": 247,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25201,7 +25241,7 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
@@ -25215,12 +25255,12 @@
                                                         "parent_location": [
                                                             {
                                                                 "end_col": 14,
-                                                                "end_line": 239,
+                                                                "end_line": 243,
                                                                 "input_file": {
                                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                                 },
                                                                 "start_col": 6,
-                                                                "start_line": 239
+                                                                "start_line": 243
                                                             },
                                                             "While handling calldata of"
                                                         ],
@@ -25230,7 +25270,7 @@
                                                     "While expanding the reference '__calldata_actual_size' in:"
                                                 ],
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While handling calldata of"
                                         ],
@@ -25240,7 +25280,7 @@
                                     "While expanding the reference '__calldata_ptr' in:"
                                 ],
                                 "start_col": 4,
-                                "start_line": 243
+                                "start_line": 247
                             },
                             "While handling calldata argument 'address'"
                         ],
@@ -25248,7 +25288,7 @@
                         "start_line": 2
                     }
                 },
-                "843": {
+                "847": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25266,12 +25306,12 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While handling calldata of"
                         ],
@@ -25279,7 +25319,7 @@
                         "start_line": 1
                     }
                 },
-                "844": {
+                "848": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25297,7 +25337,7 @@
                         "parent_location": [
                             {
                                 "end_col": 23,
-                                "end_line": 240,
+                                "end_line": 244,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25311,12 +25351,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25326,7 +25366,7 @@
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 5,
-                                "start_line": 240
+                                "start_line": 244
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25334,7 +25374,7 @@
                         "start_line": 1
                     }
                 },
-                "845": {
+                "849": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25352,7 +25392,7 @@
                         "parent_location": [
                             {
                                 "end_col": 31,
-                                "end_line": 241,
+                                "end_line": 245,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25366,12 +25406,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25381,7 +25421,7 @@
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 5,
-                                "start_line": 241
+                                "start_line": 245
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25389,7 +25429,7 @@
                         "start_line": 1
                     }
                 },
-                "846": {
+                "850": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25407,7 +25447,7 @@
                         "parent_location": [
                             {
                                 "end_col": 20,
-                                "end_line": 242,
+                                "end_line": 246,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25421,12 +25461,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25436,7 +25476,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 5,
-                                "start_line": 242
+                                "start_line": 246
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25444,7 +25484,7 @@
                         "start_line": 1
                     }
                 },
-                "847": {
+                "851": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25462,7 +25502,7 @@
                         "parent_location": [
                             {
                                 "end_col": 17,
-                                "end_line": 243,
+                                "end_line": 247,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25476,12 +25516,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25491,7 +25531,7 @@
                                     "While expanding the reference '__calldata_arg_address' in:"
                                 ],
                                 "start_col": 4,
-                                "start_line": 243
+                                "start_line": 247
                             },
                             "While handling calldata argument 'address'"
                         ],
@@ -25499,7 +25539,7 @@
                         "start_line": 1
                     }
                 },
-                "848": {
+                "852": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25510,15 +25550,15 @@
                     "hints": [],
                     "inst": {
                         "end_col": 14,
-                        "end_line": 239,
+                        "end_line": 243,
                         "input_file": {
                             "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                         },
                         "start_col": 6,
-                        "start_line": 239
+                        "start_line": 243
                     }
                 },
-                "850": {
+                "854": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25536,7 +25576,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25550,12 +25590,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25565,7 +25605,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25573,7 +25613,7 @@
                         "start_line": 1
                     }
                 },
-                "851": {
+                "855": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25591,12 +25631,12 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25604,7 +25644,7 @@
                         "start_line": 2
                     }
                 },
-                "853": {
+                "857": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25622,7 +25662,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25636,12 +25676,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25651,7 +25691,7 @@
                                     "While expanding the reference 'syscall_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25659,7 +25699,7 @@
                         "start_line": 1
                     }
                 },
-                "854": {
+                "858": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25677,7 +25717,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25691,12 +25731,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25706,7 +25746,7 @@
                                     "While expanding the reference 'pedersen_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25714,7 +25754,7 @@
                         "start_line": 1
                     }
                 },
-                "855": {
+                "859": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25732,7 +25772,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25746,12 +25786,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25761,7 +25801,7 @@
                                     "While expanding the reference 'range_check_ptr' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25769,7 +25809,7 @@
                         "start_line": 2
                     }
                 },
-                "856": {
+                "860": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25787,7 +25827,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25801,12 +25841,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25816,7 +25856,7 @@
                                     "While expanding the reference 'retdata_size' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25824,7 +25864,7 @@
                         "start_line": 2
                     }
                 },
-                "857": {
+                "861": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25842,7 +25882,7 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
@@ -25856,12 +25896,12 @@
                                         "parent_location": [
                                             {
                                                 "end_col": 14,
-                                                "end_line": 239,
+                                                "end_line": 243,
                                                 "input_file": {
                                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                                 },
                                                 "start_col": 6,
-                                                "start_line": 239
+                                                "start_line": 243
                                             },
                                             "While constructing the external wrapper for:"
                                         ],
@@ -25871,7 +25911,7 @@
                                     "While expanding the reference 'retdata' in:"
                                 ],
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -25879,7 +25919,7 @@
                         "start_line": 2
                     }
                 },
-                "858": {
+                "862": {
                     "accessible_scopes": [
                         "__main__",
                         "__main__",
@@ -25897,12 +25937,12 @@
                         "parent_location": [
                             {
                                 "end_col": 14,
-                                "end_line": 239,
+                                "end_line": 243,
                                 "input_file": {
                                     "filename": "/mnt/d/work/cairo_poi/contracts/poi.cairo"
                                 },
                                 "start_col": 6,
-                                "start_line": 239
+                                "start_line": 243
                             },
                             "While constructing the external wrapper for:"
                         ],
@@ -26205,7 +26245,7 @@
                     }
                 }
             ],
-            "789": [
+            "791": [
                 {
                     "accessible_scopes": [
                         "__main__",
@@ -26217,13 +26257,13 @@
                     "flow_tracking_data": {
                         "ap_tracking": {
                             "group": 52,
-                            "offset": 67
+                            "offset": 104
                         },
                         "reference_ids": {}
                     }
                 }
             ],
-            "816": [
+            "820": [
                 {
                     "accessible_scopes": [
                         "__main__",
@@ -26235,13 +26275,13 @@
                     "flow_tracking_data": {
                         "ap_tracking": {
                             "group": 54,
-                            "offset": 67
+                            "offset": 104
                         },
                         "reference_ids": {}
                     }
                 }
             ],
-            "832": [
+            "836": [
                 {
                     "accessible_scopes": [
                         "__main__",
@@ -27437,7 +27477,7 @@
                 "decorators": [
                     "view"
                 ],
-                "pc": 825,
+                "pc": 829,
                 "type": "function"
             },
             "__main__.is_admin.Args": {
@@ -27537,7 +27577,7 @@
                 "decorators": [
                     "external"
                 ],
-                "pc": 798,
+                "pc": 800,
                 "type": "function"
             },
             "__main__.remove_admin.Args": {
@@ -27929,7 +27969,7 @@
                 "decorators": [
                     "external"
                 ],
-                "pc": 780,
+                "pc": 782,
                 "type": "function"
             },
             "__wrappers__.add_admin.Args": {
@@ -28310,7 +28350,7 @@
                 "decorators": [
                     "view"
                 ],
-                "pc": 841,
+                "pc": 845,
                 "type": "function"
             },
             "__wrappers__.is_admin.Args": {
@@ -28339,7 +28379,7 @@
             },
             "__wrappers__.is_admin_encode_return": {
                 "decorators": [],
-                "pc": 832,
+                "pc": 836,
                 "type": "function"
             },
             "__wrappers__.is_admin_encode_return.Args": {
@@ -28379,7 +28419,7 @@
                 "decorators": [
                     "external"
                 ],
-                "pc": 807,
+                "pc": 811,
                 "type": "function"
             },
             "__wrappers__.remove_admin.Args": {
