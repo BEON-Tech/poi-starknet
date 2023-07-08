@@ -35,8 +35,13 @@ func student_wallets(edition_number: felt, index: felt) -> (wallet: StudentWalle
 }
 
 @storage_var
-func contract_owner() -> (res: felt) {
+func contract_owner() -> (address: felt) {
 }
+
+@storage_var
+func admins(address: felt) -> (is_admin: felt) {
+}
+
 
 @constructor
 func constructor {
@@ -45,6 +50,55 @@ func constructor {
     range_check_ptr,
 } (owner: felt) {
     contract_owner.write(owner);
+    return ();
+}
+
+func assert_only_owner {
+    syscall_ptr: felt*,
+    pedersen_ptr: HashBuiltin*,
+    range_check_ptr
+} () {
+    let (caller) = get_caller_address();
+    let (owner) = contract_owner.read();
+    with_attr error_message("Ownable: caller is the zero address") {
+        assert_not_zero(caller);
+    }
+    with_attr error_message("Ownable: caller is not the owner") {
+        assert owner = caller;
+    }
+    return ();
+}
+
+func assert_only_admin {
+    syscall_ptr: felt*,
+    pedersen_ptr: HashBuiltin*,
+    range_check_ptr
+} () {
+    let (caller) = get_caller_address();
+    let (is_admin) = admins.read(caller);
+    with_attr error_message("Ownable: caller is the zero address") {
+        assert_not_zero(caller);
+    }
+    with_attr error_message("Ownable: caller is not an admin") {
+        assert is_admin = 1;
+    }
+    return ();
+}
+
+func assert_only_owner_or_admin {
+    syscall_ptr: felt*,
+    pedersen_ptr: HashBuiltin*,
+    range_check_ptr
+} () {
+    let (caller) = get_caller_address();
+    let (is_admin) = admins.read(caller);
+    let (owner) = contract_owner.read();
+    with_attr error_message("Ownable: caller is the zero address") {
+        assert_not_zero(caller);
+    }
+    with_attr error_message("Ownable: caller is not the owner or an admin") {
+        assert (caller - owner) * (is_admin - 1) = 0;
+    }
     return ();
 }
 
@@ -58,19 +112,16 @@ func get_owner {
     return (address=address);
 }
 
-func assert_only_owner {
+@external
+func transfer_ownsership {
     syscall_ptr: felt*,
     pedersen_ptr: HashBuiltin*,
     range_check_ptr
-} () {
-    let (owner) = contract_owner.read();
-    let (caller) = get_caller_address();
-    with_attr error_message("Ownable: caller is the zero address") {
-        assert_not_zero(caller);
-    }
-    with_attr error_message("Ownable: caller is not the owner") {
-        assert owner = caller;
-    }
+} (new_owner: felt) {
+    assert_only_owner();
+
+    contract_owner.write(new_owner);
+
     return ();
 }
 
@@ -95,6 +146,8 @@ func add_edition {
     pedersen_ptr: HashBuiltin*,
     range_check_ptr,
 } (edition_number: felt, venue: ShortText, photo_cid: ShortText, graduates_number: felt, wallets_len: felt, wallets: StudentWallet*) {
+    assert_only_owner_or_admin();
+
     let (current_number) = editions_number.read();
 
     editions.write(current_number, Edition(edition_number, venue, photo_cid, graduates_number, wallets_number=wallets_len));
@@ -158,4 +211,36 @@ func update_student_wallet {
     student_wallets.write(edition_number, wallet_index, wallet);
     
     return ();
+}
+
+@external
+func add_admin {
+    syscall_ptr: felt*,
+    pedersen_ptr: HashBuiltin*,
+    range_check_ptr
+} (admin_address: felt) {
+    admins.write(admin_address, 1);
+
+    return ();
+}
+
+@external
+func remove_admin {
+    syscall_ptr: felt*,
+    pedersen_ptr: HashBuiltin*,
+    range_check_ptr
+} (admin_address: felt) {
+    admins.write(admin_address, 0);
+
+    return ();
+}
+
+@view 
+func is_admin {
+    syscall_ptr: felt*,
+    pedersen_ptr: HashBuiltin*,
+    range_check_ptr,
+} (address: felt) -> (result: felt) {
+    let (result) = admins.read(address);
+    return (result=result);
 }

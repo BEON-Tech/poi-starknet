@@ -91,6 +91,17 @@
     {
         "inputs": [
             {
+                "name": "new_owner",
+                "type": "felt"
+            }
+        ],
+        "name": "transfer_ownsership",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
                 "name": "edition_number",
                 "type": "felt"
             },
@@ -217,6 +228,45 @@
         ],
         "name": "update_student_wallet",
         "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "admin_address",
+                "type": "felt"
+            }
+        ],
+        "name": "add_admin",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "admin_address",
+                "type": "felt"
+            }
+        ],
+        "name": "remove_admin",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "is_admin",
+        "outputs": [
+            {
+                "name": "result",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
         "type": "function"
     }
 ]
