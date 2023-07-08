@@ -219,6 +219,8 @@ func add_admin {
     pedersen_ptr: HashBuiltin*,
     range_check_ptr
 } (admin_address: felt) {
+    assert_only_owner();
+
     admins.write(admin_address, 1);
 
     return ();
@@ -230,6 +232,8 @@ func remove_admin {
     pedersen_ptr: HashBuiltin*,
     range_check_ptr
 } (admin_address: felt) {
+    assert_only_owner();
+
     admins.write(admin_address, 0);
 
     return ();
