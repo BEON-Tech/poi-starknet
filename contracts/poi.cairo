@@ -42,7 +42,6 @@ func contract_owner() -> (address: felt) {
 func admins(address: felt) -> (is_admin: felt) {
 }
 
-
 @constructor
 func constructor {
     syscall_ptr: felt*,
@@ -113,7 +112,7 @@ func get_owner {
 }
 
 @external
-func transfer_ownsership {
+func transfer_ownership {
     syscall_ptr: felt*,
     pedersen_ptr: HashBuiltin*,
     range_check_ptr

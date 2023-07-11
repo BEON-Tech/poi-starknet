@@ -95,7 +95,7 @@
                 "type": "felt"
             }
         ],
-        "name": "transfer_ownsership",
+        "name": "transfer_ownership",
         "outputs": [],
         "type": "function"
     },
